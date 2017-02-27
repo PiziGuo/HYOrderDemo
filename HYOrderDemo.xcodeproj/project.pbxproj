@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63CCBBC51E642CEA00F00892 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CCBBC41E642CEA00F00892 /* main.m */; };
-		63CCBBC81E642CEA00F00892 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CCBBC71E642CEA00F00892 /* AppDelegate.m */; };
-		63CCBBCB1E642CEA00F00892 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CCBBCA1E642CEA00F00892 /* ViewController.m */; };
-		63CCBBCE1E642CEA00F00892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CCBBCC1E642CEA00F00892 /* Main.storyboard */; };
-		63CCBBD01E642CEA00F00892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CCBBCF1E642CEA00F00892 /* Assets.xcassets */; };
-		63CCBBD31E642CEA00F00892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CCBBD11E642CEA00F00892 /* LaunchScreen.storyboard */; };
 		63CCBBDE1E642CEA00F00892 /* HYOrderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CCBBDD1E642CEA00F00892 /* HYOrderDemoTests.m */; };
 		63CCBBE91E642CEA00F00892 /* HYOrderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CCBBE81E642CEA00F00892 /* HYOrderDemoUITests.m */; };
+		63CCBC011E642D7800F00892 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CCBBFB1E642D7800F00892 /* AppDelegate.m */; };
+		63CCBC021E642D7800F00892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CCBBFC1E642D7800F00892 /* LaunchScreen.storyboard */; };
+		63CCBC031E642D7800F00892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CCBBFE1E642D7800F00892 /* Main.storyboard */; };
+		63CCBC041E642D7800F00892 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CCBC001E642D7800F00892 /* main.m */; };
+		63CCBC081E642D8000F00892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CCBC061E642D8000F00892 /* Assets.xcassets */; };
+		63CCBC091E642D8000F00892 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63CCBC071E642D8000F00892 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +36,19 @@
 
 /* Begin PBXFileReference section */
 		63CCBBC01E642CEA00F00892 /* HYOrderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYOrderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		63CCBBC41E642CEA00F00892 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		63CCBBC61E642CEA00F00892 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		63CCBBC71E642CEA00F00892 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		63CCBBC91E642CEA00F00892 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		63CCBBCA1E642CEA00F00892 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		63CCBBCD1E642CEA00F00892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		63CCBBCF1E642CEA00F00892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		63CCBBD21E642CEA00F00892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		63CCBBD41E642CEA00F00892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63CCBBD91E642CEA00F00892 /* HYOrderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYOrderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CCBBDD1E642CEA00F00892 /* HYOrderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYOrderDemoTests.m; sourceTree = "<group>"; };
 		63CCBBDF1E642CEA00F00892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63CCBBE41E642CEA00F00892 /* HYOrderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYOrderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CCBBE81E642CEA00F00892 /* HYOrderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYOrderDemoUITests.m; sourceTree = "<group>"; };
 		63CCBBEA1E642CEA00F00892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63CCBBFA1E642D7800F00892 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63CCBBFB1E642D7800F00892 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63CCBBFD1E642D7800F00892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63CCBBFF1E642D7800F00892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63CCBC001E642D7800F00892 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63CCBC061E642D8000F00892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63CCBC071E642D8000F00892 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +99,11 @@
 		63CCBBC21E642CEA00F00892 /* HYOrderDemo */ = {
 			isa = PBXGroup;
 			children = (
-				63CCBBC61E642CEA00F00892 /* AppDelegate.h */,
-				63CCBBC71E642CEA00F00892 /* AppDelegate.m */,
-				63CCBBC91E642CEA00F00892 /* ViewController.h */,
-				63CCBBCA1E642CEA00F00892 /* ViewController.m */,
-				63CCBBCC1E642CEA00F00892 /* Main.storyboard */,
-				63CCBBCF1E642CEA00F00892 /* Assets.xcassets */,
-				63CCBBD11E642CEA00F00892 /* LaunchScreen.storyboard */,
-				63CCBBD41E642CEA00F00892 /* Info.plist */,
+				63CCBBF61E642D1800F00892 /* Controller */,
+				63CCBBF71E642D1800F00892 /* Model */,
+				63CCBBF81E642D1800F00892 /* View */,
+				63CCBBF91E642D7800F00892 /* Other */,
+				63CCBC051E642D8000F00892 /* Sources */,
 				63CCBBC31E642CEA00F00892 /* Supporting Files */,
 			);
 			path = HYOrderDemo;
@@ -117,7 +112,7 @@
 		63CCBBC31E642CEA00F00892 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				63CCBBC41E642CEA00F00892 /* main.m */,
+				63CCBC071E642D8000F00892 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +133,47 @@
 				63CCBBEA1E642CEA00F00892 /* Info.plist */,
 			);
 			path = HYOrderDemoUITests;
+			sourceTree = "<group>";
+		};
+		63CCBBF61E642D1800F00892 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63CCBBF71E642D1800F00892 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63CCBBF81E642D1800F00892 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63CCBBF91E642D7800F00892 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				63CCBBFA1E642D7800F00892 /* AppDelegate.h */,
+				63CCBBFB1E642D7800F00892 /* AppDelegate.m */,
+				63CCBBFC1E642D7800F00892 /* LaunchScreen.storyboard */,
+				63CCBBFE1E642D7800F00892 /* Main.storyboard */,
+				63CCBC001E642D7800F00892 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		63CCBC051E642D8000F00892 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				63CCBC061E642D8000F00892 /* Assets.xcassets */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +285,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63CCBBD31E642CEA00F00892 /* LaunchScreen.storyboard in Resources */,
-				63CCBBD01E642CEA00F00892 /* Assets.xcassets in Resources */,
-				63CCBBCE1E642CEA00F00892 /* Main.storyboard in Resources */,
+				63CCBC031E642D7800F00892 /* Main.storyboard in Resources */,
+				63CCBC021E642D7800F00892 /* LaunchScreen.storyboard in Resources */,
+				63CCBC081E642D8000F00892 /* Assets.xcassets in Resources */,
+				63CCBC091E642D8000F00892 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +313,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63CCBBCB1E642CEA00F00892 /* ViewController.m in Sources */,
-				63CCBBC81E642CEA00F00892 /* AppDelegate.m in Sources */,
-				63CCBBC51E642CEA00F00892 /* main.m in Sources */,
+				63CCBC041E642D7800F00892 /* main.m in Sources */,
+				63CCBC011E642D7800F00892 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,20 +350,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		63CCBBCC1E642CEA00F00892 /* Main.storyboard */ = {
+		63CCBBFC1E642D7800F00892 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				63CCBBCD1E642CEA00F00892 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		63CCBBD11E642CEA00F00892 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63CCBBD21E642CEA00F00892 /* Base */,
+				63CCBBFD1E642D7800F00892 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		63CCBBFE1E642D7800F00892 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63CCBBFF1E642D7800F00892 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -426,7 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9MVLPD7569;
-				INFOPLIST_FILE = HYOrderDemo/Info.plist;
+				INFOPLIST_FILE = "/Users/David/Desktop/我的Demo/HYOrderDemo/HYOrderDemo/Sources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HYCloud.HYOrderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,7 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9MVLPD7569;
-				INFOPLIST_FILE = HYOrderDemo/Info.plist;
+				INFOPLIST_FILE = "/Users/David/Desktop/我的Demo/HYOrderDemo/HYOrderDemo/Sources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HYCloud.HYOrderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
