@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6387CBDE1E650D1300BE28BE /* HYOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6387CBDD1E650D1300BE28BE /* HYOrderController.m */; };
+		6387CBE41E6553FC00BE28BE /* HYApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 6387CBE11E6553FC00BE28BE /* HYApplication.m */; };
+		6387CBE51E6553FC00BE28BE /* HYNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6387CBE31E6553FC00BE28BE /* HYNetworkManager.m */; };
+		6387CBEC1E65562000BE28BE /* NSString+AXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 6387CBE91E65562000BE28BE /* NSString+AXNetworkingMethods.m */; };
+		6387CBED1E65562000BE28BE /* NSString+HYString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6387CBEB1E65562000BE28BE /* NSString+HYString.m */; };
 		63CCBBDE1E642CEA00F00892 /* HYOrderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CCBBDD1E642CEA00F00892 /* HYOrderDemoTests.m */; };
 		63CCBBE91E642CEA00F00892 /* HYOrderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CCBBE81E642CEA00F00892 /* HYOrderDemoUITests.m */; };
 		63CCBC011E642D7800F00892 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CCBBFB1E642D7800F00892 /* AppDelegate.m */; };
@@ -37,6 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6387CBDC1E650D1300BE28BE /* HYOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYOrderController.h; sourceTree = "<group>"; };
+		6387CBDD1E650D1300BE28BE /* HYOrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYOrderController.m; sourceTree = "<group>"; };
+		6387CBE01E6553FC00BE28BE /* HYApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYApplication.h; sourceTree = "<group>"; };
+		6387CBE11E6553FC00BE28BE /* HYApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYApplication.m; sourceTree = "<group>"; };
+		6387CBE21E6553FC00BE28BE /* HYNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNetworkManager.h; sourceTree = "<group>"; };
+		6387CBE31E6553FC00BE28BE /* HYNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNetworkManager.m; sourceTree = "<group>"; };
+		6387CBE81E65562000BE28BE /* NSString+AXNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AXNetworkingMethods.h"; sourceTree = "<group>"; };
+		6387CBE91E65562000BE28BE /* NSString+AXNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AXNetworkingMethods.m"; sourceTree = "<group>"; };
+		6387CBEA1E65562000BE28BE /* NSString+HYString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HYString.h"; sourceTree = "<group>"; };
+		6387CBEB1E65562000BE28BE /* NSString+HYString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HYString.m"; sourceTree = "<group>"; };
 		63CCBBC01E642CEA00F00892 /* HYOrderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYOrderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CCBBD91E642CEA00F00892 /* HYOrderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYOrderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CCBBDD1E642CEA00F00892 /* HYOrderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYOrderDemoTests.m; sourceTree = "<group>"; };
@@ -90,6 +105,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6387CBDF1E6553F200BE28BE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6387CBE01E6553FC00BE28BE /* HYApplication.h */,
+				6387CBE11E6553FC00BE28BE /* HYApplication.m */,
+				6387CBE21E6553FC00BE28BE /* HYNetworkManager.h */,
+				6387CBE31E6553FC00BE28BE /* HYNetworkManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		6387CBE61E6555DC00BE28BE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6387CBE71E65562000BE28BE /* NSString扩展 */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6387CBE71E65562000BE28BE /* NSString扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				6387CBE81E65562000BE28BE /* NSString+AXNetworkingMethods.h */,
+				6387CBE91E65562000BE28BE /* NSString+AXNetworkingMethods.m */,
+				6387CBEA1E65562000BE28BE /* NSString+HYString.h */,
+				6387CBEB1E65562000BE28BE /* NSString+HYString.m */,
+			);
+			path = "NSString扩展";
+			sourceTree = "<group>";
+		};
 		63CCBBB71E642CEA00F00892 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +163,7 @@
 				63CCBBF61E642D1800F00892 /* Controller */,
 				63CCBBF71E642D1800F00892 /* Model */,
 				63CCBBF81E642D1800F00892 /* View */,
+				6387CBDF1E6553F200BE28BE /* Tools */,
 				63CCBBF91E642D7800F00892 /* Other */,
 				63CCBC051E642D8000F00892 /* Sources */,
 				63CCBBC31E642CEA00F00892 /* Supporting Files */,
@@ -153,6 +199,8 @@
 		63CCBBF61E642D1800F00892 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6387CBDC1E650D1300BE28BE /* HYOrderController.h */,
+				6387CBDD1E650D1300BE28BE /* HYOrderController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -174,6 +222,7 @@
 		63CCBBF91E642D7800F00892 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				6387CBE61E6555DC00BE28BE /* Category */,
 				63CCBBFA1E642D7800F00892 /* AppDelegate.h */,
 				63CCBBFB1E642D7800F00892 /* AppDelegate.m */,
 				63CCBBFC1E642D7800F00892 /* LaunchScreen.storyboard */,
@@ -498,8 +547,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6387CBDE1E650D1300BE28BE /* HYOrderController.m in Sources */,
+				6387CBEC1E65562000BE28BE /* NSString+AXNetworkingMethods.m in Sources */,
+				6387CBED1E65562000BE28BE /* NSString+HYString.m in Sources */,
+				6387CBE51E6553FC00BE28BE /* HYNetworkManager.m in Sources */,
 				63CCBC041E642D7800F00892 /* main.m in Sources */,
 				63CCBC011E642D7800F00892 /* AppDelegate.m in Sources */,
+				6387CBE41E6553FC00BE28BE /* HYApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -741,6 +795,7 @@
 				63CCBBEF1E642CEA00F00892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63CCBBF01E642CEA00F00892 /* Build configuration list for PBXNativeTarget "HYOrderDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -749,6 +804,7 @@
 				63CCBBF21E642CEA00F00892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63CCBBF31E642CEA00F00892 /* Build configuration list for PBXNativeTarget "HYOrderDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -757,6 +813,7 @@
 				63CCBBF51E642CEA00F00892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -5,6 +5,9 @@ target 'HYOrderDemo' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 pod 'AFNetworking','~> 3.0'
+pod 'SDWebImage','~>3.8'
+pod 'JSONModel'
+pod 'MBProgressHUD', '~> 1.0.0'
 
   # Pods for HYOrderDemo
 
