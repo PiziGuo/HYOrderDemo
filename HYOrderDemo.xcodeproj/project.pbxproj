@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		635C89EC1E66763F00939A64 /* HYOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 635C89EB1E66763F00939A64 /* HYOrderCell.m */; };
+		635C89EF1E669D9C00939A64 /* HYOrderMsgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 635C89EE1E669D9C00939A64 /* HYOrderMsgView.m */; };
 		6387CBDE1E650D1300BE28BE /* HYOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6387CBDD1E650D1300BE28BE /* HYOrderController.m */; };
 		6387CBE41E6553FC00BE28BE /* HYApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 6387CBE11E6553FC00BE28BE /* HYApplication.m */; };
 		6387CBE51E6553FC00BE28BE /* HYNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6387CBE31E6553FC00BE28BE /* HYNetworkManager.m */; };
 		6387CBEC1E65562000BE28BE /* NSString+AXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 6387CBE91E65562000BE28BE /* NSString+AXNetworkingMethods.m */; };
 		6387CBED1E65562000BE28BE /* NSString+HYString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6387CBEB1E65562000BE28BE /* NSString+HYString.m */; };
+		6387CBF01E655F3300BE28BE /* HYTopButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6387CBEF1E655F3300BE28BE /* HYTopButtonView.m */; };
 		63CCBBDE1E642CEA00F00892 /* HYOrderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CCBBDD1E642CEA00F00892 /* HYOrderDemoTests.m */; };
 		63CCBBE91E642CEA00F00892 /* HYOrderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CCBBE81E642CEA00F00892 /* HYOrderDemoUITests.m */; };
 		63CCBC011E642D7800F00892 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CCBBFB1E642D7800F00892 /* AppDelegate.m */; };
@@ -42,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		635C89EA1E66763F00939A64 /* HYOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYOrderCell.h; sourceTree = "<group>"; };
+		635C89EB1E66763F00939A64 /* HYOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYOrderCell.m; sourceTree = "<group>"; };
+		635C89ED1E669D9C00939A64 /* HYOrderMsgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYOrderMsgView.h; sourceTree = "<group>"; };
+		635C89EE1E669D9C00939A64 /* HYOrderMsgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYOrderMsgView.m; sourceTree = "<group>"; };
 		6387CBDC1E650D1300BE28BE /* HYOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYOrderController.h; sourceTree = "<group>"; };
 		6387CBDD1E650D1300BE28BE /* HYOrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYOrderController.m; sourceTree = "<group>"; };
 		6387CBE01E6553FC00BE28BE /* HYApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYApplication.h; sourceTree = "<group>"; };
@@ -52,6 +59,9 @@
 		6387CBE91E65562000BE28BE /* NSString+AXNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AXNetworkingMethods.m"; sourceTree = "<group>"; };
 		6387CBEA1E65562000BE28BE /* NSString+HYString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HYString.h"; sourceTree = "<group>"; };
 		6387CBEB1E65562000BE28BE /* NSString+HYString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HYString.m"; sourceTree = "<group>"; };
+		6387CBEE1E655F3300BE28BE /* HYTopButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTopButtonView.h; sourceTree = "<group>"; };
+		6387CBEF1E655F3300BE28BE /* HYTopButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTopButtonView.m; sourceTree = "<group>"; };
+		6387CBF21E65602D00BE28BE /* HYConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYConst.h; sourceTree = "<group>"; };
 		63CCBBC01E642CEA00F00892 /* HYOrderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYOrderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CCBBD91E642CEA00F00892 /* HYOrderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYOrderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CCBBDD1E642CEA00F00892 /* HYOrderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYOrderDemoTests.m; sourceTree = "<group>"; };
@@ -105,6 +115,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		635C89E91E66762B00939A64 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				635C89EA1E66763F00939A64 /* HYOrderCell.h */,
+				635C89EB1E66763F00939A64 /* HYOrderCell.m */,
+				635C89ED1E669D9C00939A64 /* HYOrderMsgView.h */,
+				635C89EE1E669D9C00939A64 /* HYOrderMsgView.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		6387CBDF1E6553F200BE28BE /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +236,9 @@
 		63CCBBF81E642D1800F00892 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				635C89E91E66762B00939A64 /* Cell */,
+				6387CBEE1E655F3300BE28BE /* HYTopButtonView.h */,
+				6387CBEF1E655F3300BE28BE /* HYTopButtonView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -228,6 +252,7 @@
 				63CCBBFC1E642D7800F00892 /* LaunchScreen.storyboard */,
 				63CCBBFE1E642D7800F00892 /* Main.storyboard */,
 				63CCBC001E642D7800F00892 /* main.m */,
+				6387CBF21E65602D00BE28BE /* HYConst.h */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -549,11 +574,14 @@
 			files = (
 				6387CBDE1E650D1300BE28BE /* HYOrderController.m in Sources */,
 				6387CBEC1E65562000BE28BE /* NSString+AXNetworkingMethods.m in Sources */,
+				635C89EF1E669D9C00939A64 /* HYOrderMsgView.m in Sources */,
 				6387CBED1E65562000BE28BE /* NSString+HYString.m in Sources */,
 				6387CBE51E6553FC00BE28BE /* HYNetworkManager.m in Sources */,
 				63CCBC041E642D7800F00892 /* main.m in Sources */,
+				635C89EC1E66763F00939A64 /* HYOrderCell.m in Sources */,
 				63CCBC011E642D7800F00892 /* AppDelegate.m in Sources */,
 				6387CBE41E6553FC00BE28BE /* HYApplication.m in Sources */,
+				6387CBF01E655F3300BE28BE /* HYTopButtonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
